@@ -53,17 +53,14 @@ h4 {
     float: inline-end;
 }
 
-#directions {
-    text-align: center;
-}
-
 #ingredients {
     background-image: url("../assets/list-bg.png");
 }
-
-ul {
-    list-style-type: square;
-}
+ 
+input[type=radio]:checked + li {
+    color: red;
+    text-decoration: line-through;
+ }
 
 #id1 {
     float: left;
@@ -101,7 +98,6 @@ footer {
     border: none;
 }
 
-
 #copyright {
     text-align: center;
     color: grey;
@@ -113,4 +109,8 @@ footer {
     float: left;
     font-size: .75rem;
     margin-left: 20px;
+}
+
+.tab {
+    margin-left: 40px;
 }
