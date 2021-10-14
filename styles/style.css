@@ -16,9 +16,20 @@ nav {
     right: 100px;
 }
 
+#stripy-lines {
+    background-image: url("../assets/hr-img.png");
+    background-repeat: repeat-x;
+    width: 100%;
+}
+
 main {
     display: flex;
     flex-direction: column;
+    width: 100%;
+}
+
+#choco-pizza {
+    width: 100%;
 }
 
 h3, h4 {
@@ -40,4 +51,17 @@ h4 {
     position: absolute;
     right: 100px;
     float: inline-end;
+}
+
+#directions {
+    text-align: center;
+}
+
+#ingredients {
+    background-image: url("../assets/list-bg.png");
+    
+}
+
+ul {
+    list-style-type: square;
 }
