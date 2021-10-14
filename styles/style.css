@@ -86,13 +86,13 @@ li {
 #id1 {
     float: left;
     margin: 30px;
-    margin-left: 65px;
+    margin-left: 30px;
 }
 
 #id2 {
     float: right;
     margin: 30px;
-    margin-right: 65px;
+    margin-right: 30px;
 }
 
 footer {
