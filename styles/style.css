@@ -26,10 +26,21 @@ main {
     display: flex;
     flex-direction: column;
     width: 100%;
+    color: grey;
+    font-size: 1.5rem;
+}
+
+h1 {
+    color: black;
+    font-family: sans-serif;
 }
 
 #choco-pizza {
     width: 100%;
+}
+
+#header h3 {
+    font-family: 'Satisfy', cursive;
 }
 
 h3, h4 {
@@ -55,12 +66,22 @@ h4 {
 
 #ingredients {
     background-image: url("../assets/list-bg.png");
+    font-family: 'Indie Flower', cursive;
 }
  
-input[type=radio]:checked + li {
-    color: red;
+input[type=checkbox]:checked + li {
     text-decoration: line-through;
  }
+
+.checkbox {
+    vertical-align: top;
+    padding-left: 25px;
+    position: absolute;
+}
+
+li {
+    margin-left: 25px;
+}
 
 #id1 {
     float: left;
