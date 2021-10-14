@@ -1,0 +1,17 @@
+body {
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    width: 100%;
+
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+}
+
+#socials {
+    position: absolute;
+    right: 100px;
+}
