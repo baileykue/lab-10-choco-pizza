@@ -57,10 +57,19 @@ h4 {
     background-image: url("../assets/list-bg.png");
 }
  
-input[type=radio]:checked + li {
-    color: red;
+input[type=checkbox]:checked + li {
     text-decoration: line-through;
  }
+
+.checkbox {
+    vertical-align: top;
+    padding-left: 25px;
+    position: absolute;
+}
+
+li {
+    margin-left: 25px;
+}
 
 #id1 {
     float: left;
