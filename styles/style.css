@@ -16,7 +16,7 @@ nav {
     right: 100px;
 }
 
-#stripy-lines {
+.stripy-lines {
     background-image: url("../assets/hr-img.png");
     background-repeat: repeat-x;
     width: 100%;
@@ -77,3 +77,40 @@ ul {
     margin-right: 65px;
 }
 
+footer {
+    display: flex;
+    flex-direction: column;
+}
+
+#about-me {
+    flex-direction: row;
+    float: right;
+}
+
+#about-me img {
+    float: left;
+    z-index: 5;
+}
+
+#share-button {
+    float: right;
+    text-transform: uppercase;
+    background-color: coral;
+    padding: 20px;
+    color: white;
+    border: none;
+}
+
+
+#copyright {
+    text-align: center;
+    color: grey;
+    font-size: .5rem;
+    align-items: center;
+}
+
+#bio {
+    float: left;
+    font-size: .75rem;
+    margin-left: 20px;
+}
